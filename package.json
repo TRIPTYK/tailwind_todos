@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-todos",
+  "version": "1.0.0",
+  "description": "Todos tailwind",
+  "scripts": {
+    "dev": "parcel src/*.html --no-cache",
+    "prod": "yarn parcel build src/index.html"
+  },
+  "author": "Triptyk",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "parcel": "^2.0.0-nightly.489",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.3",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.3.2",
+    "@tailwindcss/ui": "^0.7.2"
+  }
+}
